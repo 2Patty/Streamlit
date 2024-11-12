@@ -7,9 +7,9 @@ def authenticate():
         st.session_state.authenticated = False
 
     if not st.session_state.authenticated:
-        login_form()# Show login form if not authenticated
+        login_form()
     else:
-        show_authenticated_content()# Show the sidebar navigation and selected page content if authenticated
+        show_authenticated_content()
 
         # Login form function
 def login_form():
@@ -18,7 +18,7 @@ def login_form():
     password = st.text_input("Password", type="password", key="password_input")
 
     if st.button("Login"):
-        if username == "admin" and password == "password":  # Simple login check
+        if username == "admin" and password == "Thegame":  # Simple login check
             st.session_state.authenticated = True
             st.success("Successfully logged in!")
         else:
