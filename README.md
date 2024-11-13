@@ -1,4 +1,5 @@
 Telco Customer Churn Prediction App
+
 This repository hosts a web application designed for predicting customer churn in a telecommunications company. The app allows users to explore data, generate predictions on customer churn, and visualize churn insights. The project leverages machine learning models and interactive dashboards for easy, real-time analysis.
 
 App Overview
@@ -11,7 +12,7 @@ Data Page
 Displays an overview of the dataset used in the analysis.
 
 Predict Page
-Users can input customer data to generate a churn prediction using the trained machine learning model. This page provides real-time churn predictions and explanations for each input.
+Using the trained machine learning model, users can input customer data to generate a churn prediction. This page provides real-time churn predictions and explanations for each input.
 
 Dashboard Page
 A visual representation of key insights, including churn patterns by tenure, monthly charges, contract types, and the effect of add-on services. Interactive charts allow users to explore trends and patterns in the dataset.
