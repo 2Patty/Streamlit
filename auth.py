@@ -1,5 +1,5 @@
 import streamlit as st
-from home import home_page
+from home import home_page  # Import the home page function from the home.py file
 
 # Authentication function
 def authenticate():
@@ -36,5 +36,4 @@ def show_authenticated_content():
 
 if __name__ == "__main__":
     authenticate()
-    
     
