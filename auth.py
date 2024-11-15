@@ -30,7 +30,7 @@ def show_authenticated_content():
     #st.sidebar.button("Home", on_click=home_page)
 
     # Add a logout button
-    if st.sidebar.button("Logout"):
+    if st.sidebar.button("Logout", key ="logout_button"):
         st.session_state.authenticated = False
         st.success("Logged out!")
 
